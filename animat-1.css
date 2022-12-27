@@ -1,0 +1,454 @@
+body{
+    background-color: rgb(236, 226, 226);
+}
+
+.divv{
+    background-color: black;
+    width: 1rem;
+    height: 1rem;
+    margin: 5rem 0 0 13rem;
+
+}
+
+.h4{
+    transform: translate(15rem,-2.4rem);
+}
+
+.divv-1{
+    transform: translate(13rem, -2rem);
+    background-color: lightsalmon;
+    text-align:left;
+    padding-left: 5rem;
+    border-radius: 20px;
+    width: 60rem;
+    height: 18rem;
+}
+
+.divv-1>p{
+    color: black;
+    padding-top: 2rem;
+}
+
+.all{
+    display: flex;
+}
+
+.blok-1{
+    background-color:  rgb(200, 200, 200);
+    color: black;
+    margin-left: 13rem;
+    border-radius: 20px;
+    padding-left: 3rem;
+    width: 28rem;
+    height: 12rem;
+}
+
+.blok-1>p{
+    display: flex;
+    justify-content: center;
+}
+
+.blok-2{
+    background-color: rgb(200, 200, 200);
+    color: black;
+    margin-left: 3rem;
+    border-radius: 20px;
+    padding-left: 3rem;
+    width: 28rem;
+    height: 12rem;
+}
+
+.blok-2>p{
+    display: flex;
+    justify-content: center;        
+}
+
+.divv-1>button{
+    color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: aqua solid 1px;
+    
+}
+
+.divv-1:hover{
+    background-image:url(https://img.freepik.com/free-photo/3d-render-low-poly-plexus-design-network-communications_1048-14542.jpg?w=1380&t=st=1669055583~exp=1669056183~hmac=5343ec22ad07fb66c7d5b9595cbe79470b2662c08d61e285b805fe33b59b4088);
+    color: white;
+    transition: 1s;
+    background-position: center;
+}
+
+.blok-1:hover{
+    background-image: url(https://img.freepik.com/premium-photo/communication-technology-internet-business-global-world-network-telecommunication-earth-cryptocurrency-blockchain-iot-elements-this-image-furnished-by-nasa_102957-60.jpg?w=1380);
+    color: white;
+    transition: 1s;
+    background-position: center;
+}
+
+.blok-2:hover{
+    background-image: url(https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?w=1380&t=st=1669055761~exp=1669056361~hmac=e62066580d2a51fc34efe5c66a1e9ed6ad1abebb3bb4ee3f79e3bc5b4db7b5b6);
+    color: white;
+    transition: 1s;
+    background-position: center;    
+}
+
+.blok-1>button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: aqua solid 1px;
+}
+
+.blok-2>button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: aqua solid 1px;
+}
+
+.divv-1>button:hover{
+    width: 125px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.blok-1>button:hover{
+    width: 125px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.blok-2>button:hover{
+    width: 125px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.click1{
+    width: 120px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 50px 0 0; 
+}
+
+.click{
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 30px 50px 0 0;
+}
+
+.a123 a{
+    background-color: aqua;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 30px 50px 0 0;
+}
+
+.a123{
+    display: flex;
+    justify-content: center;
+    margin: 0 5rem 0 0;
+}
+
+.click1:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.click:hover{
+    cursor: zoom-in;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.a123 a:hover{
+    cursor: zoom-out;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+form{
+    transform: translate(30rem, 5rem);
+    text-align: center;
+    border: 1px solid gray;
+    width: 30rem;
+    height: 30rem;
+}
+
+.B{
+    background-color: slateblue;
+    color: white;
+    width: 2rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    transform: translate(14rem, 2rem);
+}
+
+.float{
+    transform: translate(0, -1rem);
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    transform: translate(0, -5rem);
+}
+
+/* HATO INPUT RADIO CSS */
+
+.radio>input{
+    width: 16px;
+    height: 16px;
+    transform: translate(-6rem, -5rem);
+}
+
+.Rme{
+    transform: translate(-2rem, -7.6rem);
+}
+
+.sign{
+    width: 210px;
+    height: 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    transform: translate(0, -10rem);
+}
+
+.ccc{
+    transform: translate(-2.9rem, -8.1rem);
+}
+
+.cc{
+    width: 16px;
+    height: 16px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    transform: translate(11.5rem, -6.9rem);
+}
+
+.c2022{
+    transform: translate(0, -10.5rem);
+}
+
+.minnav{
+    display: flex;
+    background-color: rgb(105, 25, 203);
+    color: white;
+    border-radius: 5px;
+}
+
+.B2{
+    display: flex;
+    justify-content: center;
+    padding: 0 2px;
+    margin: 15px;
+    width: 45px;
+    height: 45px;
+    background-color:rgb(105, 25, 203);
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.minnav h3{
+    font-size: 20px;
+    position: relative;
+
+}
+
+.minnav h6 {
+    font-size: 13px;
+    color: gray;
+    position: relative;
+    top: 15px;
+    left: -85px;
+}
+
+.all-1{
+    margin-top: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.all-2{
+    margin-top: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.UIblue{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(10, 86, 179);
+    border-radius: 5px;
+}
+
+.UIblue1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(10, 86, 179);
+    border-radius: 5px;
+}
+
+.UIpink{
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.UIpurple{
+    width: 40px;
+    height: 40px;
+    background-color:purple;
+    border-radius: 5px;
+}
+
+.user{
+    display: flex;
+}
+
+h5{
+    display: flex;
+    position: relative;
+    top: -20px;
+    padding-left: 5px;
+}
+
+.lorem1{
+    position: relative;
+    left: -65px;
+    top: 10px;
+    color: gray;
+    font-size: 13px;
+}
+
+.user2{
+    display: flex;
+}
+
+.Aname{
+    display: flex;
+    position: relative;
+    color: gray;
+    left: -60px;
+    top: 5px;
+}
+
+.a-2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a-1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a-3{
+    display: flex;
+    position: relative;
+    left: 93rem;
+    top: 1rem;
+}
+
+.thurmall{
+    border: 2px solid aqua ;
+    margin-top: 5rem;
+    background-color: white;
+}
+
+.album{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.thurmallp{
+    text-align: center;
+}
+
+.thurmbutt{
+    margin-left: 39rem;
+    height: 2rem;
+    padding: 10px;
+    background-color: rgb(0, 120, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.thurmbutt2{
+    height: 2rem;
+    padding: 10px;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+}
+
+.boxses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thrum{
+    width: 27rem;
+    height: 17rem;
+    margin: 0 2rem 0 2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: grey;
+}
+
+.thrlor{
+    width: 26.8rem;
+    margin: 0 2rem 0 2rem;
+    text-align: center;
+    border: 2px solid grey;
+    background-color: white;
+}
+.thrlor1{
+    width: 26.7rem;
+    margin: 0 2rem 0 2rem;
+    text-align: center;
+    border: 2px solid grey;
+    background-color: white;
+}
+.thrlor2{
+    width: 26.7rem;
+    margin: 0 2rem 0 2rem;
+    text-align: center;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+
+
+
